@@ -8,6 +8,7 @@ import psycopg2
 
 app = Flask(__name__)
 
+# test
 # Define connection parameters
 host = 'dpg-ctpgf2t2ng1s73drs8hg-a.oregon-postgres.render.com'
 port = '5432'
