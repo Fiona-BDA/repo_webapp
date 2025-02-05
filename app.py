@@ -40,7 +40,8 @@ def insights():
     conn = get_db_connection()
     
     # Query the data from the PostgreSQL table
-    query = 'SELECT * FROM "sample_table" LIMIT 1000'
+    query = 'SELECT * FROM "sample_table" LIMIT 1000' 
+    # query ='SELECT "SALES_AMOUNT" FROM AdventureWorks LIMIT 1000'
     data = pd.read_sql_query(query, conn)
     
     # Close the database connection
